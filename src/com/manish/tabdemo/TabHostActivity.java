@@ -94,7 +94,7 @@ public class TabHostActivity extends TabActivity implements OnTabChangeListener
       HomeGroupActivity.HomeGroupStack.mIntents.clear();
       HomeGroupActivity.HomeGroupStack.mAnimator.removeAllViews();
       HomeGroupActivity.HomeGroupStack.startChildActivity("CareGroupActivity", new Intent(HomeGroupActivity.HomeGroupStack, HomeActivity.class));
-      finish();
+     
      }
      
      tabWidget.setCurrentTab(0);
